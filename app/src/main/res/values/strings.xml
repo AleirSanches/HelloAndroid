@@ -1,16 +1,16 @@
 <resources>
     <string name="app_name">Olá Android</string>
     <string name="login">Login</string>
-    <string name="se">Senha</string>
-    <string name="cadastro">Cadastre-se</string>
-    <string name="enviar">Enviar</string>
-    <string name="dglogin">Digite o seu Login</string>
-    <string name="name">Nome</string>
-    <string name="email">Email</string>
-    <string name="sexo">Sexo</string>
-    <string name="masculino">Masculino</string>
-    <string name="feminino">Feminino</string>
-    <string name="aceito">Aceito os termos de uso</string>
-    <string name="cadastrar">CADASTRAR</string>
-    <string name="esqueci">Esqueci minha Senha</string>
+    <string name="se">Password</string>
+    <string name="enviar">to send</string>
+    <string name="name">Name</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="sexo">Sex</string>
+    <string name="feminino">Feminine</string>
+    <string name="cadastro">Register</string>
+    <string name="dglogin">Enter your Login</string>
+    <string name="masculino">Masculine</string>
+    <string name="aceito">I accept the terms of use</string>
+    <string name="cadastrar">REGISTER</string>
+    <string name="esqueci">I forgot my password</string>
 </resources>

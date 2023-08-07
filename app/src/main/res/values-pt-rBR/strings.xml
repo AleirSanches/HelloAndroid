@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Olá Android</string>
+    <string name="login">Usuario</string>
+    <string name="se">Sennha</string>
+    <string name="cadastro">Cadastre-se</string>
+    <string name="enviar">Enviar</string>
+    <string name="dglogin">Digite o seu Login</string>
+    <string name="name">Nome</string>
+    <string name="sexo">Sexo</string>
+    <string name="masculino">Masculino</string>
+    <string name="feminino">Feminino</string>
+    <string name="aceito">Aceito os termos de uso</string>
+    <string name="cadastrar">CADASTRAR</string>
+    <string name="esqueci">Esqueci minha Senha</string>
+</resources>
