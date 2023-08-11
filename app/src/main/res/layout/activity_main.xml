@@ -2,12 +2,11 @@
 
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="16dp"
-        android:background="@drawable/fundo">
+        >
 
 
 
@@ -18,9 +17,11 @@
             android:text="@string/login" />
 
         <EditText
+            android:id="@+id/tusuario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text" />
+            android:inputType="text"
+            />
 
         <TextView
                 android:layout_width="105dp"
@@ -34,11 +35,15 @@
 
 
 
+
             <EditText
+                    android:id="@+id/tsenha"
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:inputType="textPassword"
+
                     />
+
 
 
         <LinearLayout
@@ -71,26 +76,27 @@
 
         </LinearLayout>
 
-        <FrameLayout
+        <!--<FrameLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center">
+            android:layout_gravity="center">-->
 
 
             <Button
-                android:id="@+id/btLogin"
+                android:id="@+id/bLogin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="@string/login" />
             <ProgressBar
+
                 android:layout_width="36dp"
                 android:layout_height="36dp"
                 android:layout_gravity="center"
                 android:translationZ="2dp"
                 android:visibility="visible"/>
 
-    </FrameLayout>
+    <!--/FrameLayout-->
 
 
 
