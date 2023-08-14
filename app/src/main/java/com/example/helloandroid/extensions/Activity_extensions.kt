@@ -2,7 +2,7 @@ package com.example.helloandroid.extensions
 
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-
+import androidx.appcompat.app.AppCompatDialog
 
 
 fun AppCompatActivity.alert ( msg: String){
@@ -19,7 +19,9 @@ fun AppCompatActivity.alert ( msg: String){
 
 }
 
-private fun AlertDialog.desmiss() {
+private fun AppCompatDialog.desmiss() {
     TODO("Not yet implemented")
 }
+
+
 
