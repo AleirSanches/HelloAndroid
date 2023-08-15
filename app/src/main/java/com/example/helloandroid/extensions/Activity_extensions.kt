@@ -12,10 +12,12 @@ fun AppCompatActivity.alert ( msg: String){
     dialog.setMessage("Login incorreto, digite os dados novamente")
     dialog.setButton(
         AlertDialog.BUTTON_NEUTRAL, "OK"
-    ) { _, which -> dialog.desmiss() }
+    ) { _, which ->
+        dialog.desmiss()
+
+    }
 
     dialog.show()
-
 
 }
 
