@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
 
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -13,6 +17,18 @@
         android:text="@string/name"/>
 
     <EditText
+        android:id="@+id/tname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"/>
+
+    <EditText
+        android:id="@+id/tlogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="text"/>
@@ -23,6 +39,7 @@
         android:text="@string/email"/>
 
     <EditText
+        android:id="@+id/tEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         />
@@ -32,17 +49,18 @@
         android:layout_height="wrap_content"
         android:text="@string/sexo"/>
     <RadioGroup
+        android:id="@+id/radioSexo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <RadioButton
-            android:id="@+id/radio_1"
+            android:id="@+id/radioMasculino"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/masculino"/>
 
         <RadioButton
-            android:id="@+id/radio_2"
+            android:id="@+id/radioFeminino"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/feminino"/>
@@ -56,11 +74,13 @@
         android:layout_marginVertical="16dp"/>
 
     <CheckBox
+        android:id="@+id/checkTermo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/aceito"/>
 
     <Button
+        android:id="@+id/btCadastre_se"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -69,5 +89,7 @@
 
 
 </LinearLayout>
+
+</ScrollView>
 
 
